@@ -188,7 +188,7 @@ const Profile = (props) => {
               variant="contained"
               color="primary"
               style={{ padding: "10px 50px", marginTop: "30px" }}
-              onClick={() => handleUpdate()}
+              onClick=""
             >
               Update Details
             </Button>

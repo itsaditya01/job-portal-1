@@ -130,9 +130,6 @@ const JobTile = (props) => {
             variant="contained"
             color="primary"
             className={classes.button}
-            onClick={() => {
-              setOpen(true);
-            }}
             disabled={userType() === "recruiter"}
           >
             Apply

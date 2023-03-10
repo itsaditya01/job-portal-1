@@ -34,7 +34,7 @@ const Navbar = (props) => {
     <AppBar position="fixed">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          Job Portal
+          CareerSpoons
         </Typography>
         {isAuth() ? (
           userType() === "recruiter" ? (
@@ -48,7 +48,7 @@ const Navbar = (props) => {
               <Button color="inherit" onClick={() => handleClick("/myjobs")}>
                 My Jobs
               </Button>
-              <Button color="inherit" onClick={() => handleClick("/employees")}>
+              <Button color="inherit" onClick={() => handleClick("/home")}>
                 Employees
               </Button>
               <Button color="inherit" onClick={() => handleClick("/profile")}>
